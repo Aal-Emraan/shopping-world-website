@@ -13,17 +13,22 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
+  border: 1px solid #31B0D5;
   width: 281px;
+  height: 36px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
   border-right: none;
+  position: relative;
+  box-shadow: 0 0 5px #31b0d5;
 }
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
   margin-left: 20px;
+  position: absolute;
+  right: 0;
 }
 #all-products {
   display: grid;
